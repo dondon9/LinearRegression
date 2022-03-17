@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import metrics
 
 #star with reading the data 
-customrs=pd.read_csv(r"/home/dndn/Desktop/Lin/Ecommerce Customers.csv") 
+customrs=pd.read_csv(r"Ecommerce Customers.csv") 
 customrs.head()
 customrs.describe()
 customrs.info()
